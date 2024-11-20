@@ -65,10 +65,6 @@ response = requests.post(url, json=query)
 print(response.json())
 ```
 
-## Configuration
-
-- Modify settings in `config.yaml` to adjust parameters such as the retrieval model, generative model, or API endpoint configuration.
-
 ## Models Used
 
 - **Retriever**: Typically a dense retriever like DPR (Dense Passage Retriever) or BM25 is used to fetch relevant passages.
@@ -77,7 +73,6 @@ print(response.json())
 ## Contributing
 
 Contributions are welcome! Please open an issue first to discuss what you would like to change. You can also fork the repository, make your changes, and submit a pull request.
-
 
 ## Contact
 
